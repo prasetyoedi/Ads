@@ -8,16 +8,15 @@
 }
 
 header {
-    background: url('/assets/images/cover.png');
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/cover.png');
     background-size: cover;
-    background-position: center;
     height: 100%;
     width: 100%;
 
     padding-top: 51px;
     padding-left: 72px;
     padding-right: 72px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
 
 nav {
@@ -107,7 +106,7 @@ header .navbar-nav {
 
 /* about */
 #about {
-    background: url('/assets/images/bg-about.png');
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-about.png');
     background-size: cover;
     background-position: center;
     height: 100%;
@@ -142,10 +141,9 @@ header .navbar-nav {
     height: auto;
 }
 
-
 /* blog */
 #blog {
-    background: url('/assets/images/bg-blog.png');
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-blog.png');
     background-size: cover;
     background-position: center;
     height: 100%;
