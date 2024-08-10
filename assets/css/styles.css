@@ -243,11 +243,163 @@ footer {
 }
 
 
+/* Register */
+#register {
+    background: url('/assets/images/cover-register.png');
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#register .title {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 86px;
+}
+
+#register .subtitle {
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+form {
+    padding: 30px 20px;
+    gap: 20px;
+
+    border-radius: 16px;
+    background: #FFF;
+}
+
+.form-control {
+    border-radius: 8px;
+    background: #F8F8F8;
+}
+
+::placeholder {
+    color: black;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.angka {
+    color: var(--Gray-3, #828282);
+    font-family: Montserrat;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-check-label {
+    color: #071424;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-daftar {
+    width: 250px;
+    padding: 16px 20px;
+    gap: 10px;
+    border-radius: 5px;
+    background: #00D1FF;
+    border: none;
+
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img-upload-file {
+    width: 70%;
+    height: auto;
+}
+
+.ml-upload {
+    margin-left: -80px;
+    color: #071424;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.custom-file-input-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.img-upload-file {
+    height: auto;
+    cursor: pointer;
+}
+
+.custom-file-input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: none;
+    width: 50px;
+    height: 50px;
+    background-color: #FFC73C;
+    color: #FFF;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.back-to-top:hover {
+    background-color: #FFB400;
+}
+
 
 @media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
     header {
         padding-left: 20px;
         padding-right: 20px;
+        padding-bottom: 50px;
+        background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/bg-cover-mobile.png');
     }
 
     nav {
@@ -305,6 +457,14 @@ footer {
         background: #00D1FF;
     }
 
+    .img-upload-file {
+        width: 90%;
+        height: auto;
+    }
+
+    .ml-upload {
+        margin-left: 0;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
