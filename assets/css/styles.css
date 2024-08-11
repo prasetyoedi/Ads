@@ -245,7 +245,7 @@ footer {
 
 /* Register */
 #register {
-    background: url('/assets/images/cover-register.png');
+    background: url('https://raw.githubusercontent.com/prasetyoedi/Ads/master/assets/images/cover-register.png');
     background-size: cover;
     background-position: center;
     height: 100%;
